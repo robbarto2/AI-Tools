@@ -22,7 +22,7 @@ model = Sequential([
 model.compile(optimizer=Adam(learning_rate=0.01), loss='mse')
 
 # Create a TensorBoard callback
-log_dir = "logs/"
+log_dir = "logs/logs"
 tensorboard_callback = TensorBoard(log_dir=log_dir, histogram_freq=1)
 
 # Train the model

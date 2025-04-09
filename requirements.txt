@@ -1,0 +1,10 @@
+tensorflow==2.15.0
+numpy>=1.24.3
+pandas>=2.0.0
+scikit-learn>=1.2.2
+matplotlib>=3.7.1
+jupyter>=1.0.0
+seaborn>=0.12.2
+pillow>=9.5.0
+gradio
+torch
