@@ -18,12 +18,20 @@ class NeuralNetwork(nn.Module):
         self.layer2 = nn.Linear(4, 1)  # Hidden to output layer
 
     def forward(self, x):
+<<<<<<< HEAD
         x = torch.relu(self.layer1(x))
+=======
+        x = torch.sigmoid(self.layer1(x))
+>>>>>>> master
         x = self.layer2(x)
         return x
 
 # Implement the training loop
+<<<<<<< HEAD
 def train_model(model, x_train, y_train, num_epochs=2000, learning_rate=0.01):
+=======
+def train_model(model, x_train, y_train, num_epochs=5000, learning_rate=0.01):
+>>>>>>> master
     criterion = nn.MSELoss()
     optimizer = optim.SGD(model.parameters(), lr=learning_rate)
 
