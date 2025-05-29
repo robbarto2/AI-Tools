@@ -1,122 +1,141 @@
-Mastering AI Tools for Development
-By Rob Barton and Jerome Henry
+# 🚀 Mastering AI Tools for Development
 
-Welcome to the official repository for "Mastering AI Tools for Development" — a 4-hour live training session developed in partnership with Pearson O’Reilly. This course is designed to give you a fast-paced, hands-on introduction to the tools, platforms, and frameworks that power modern AI/ML workflows. Ideal for IT professionals and developers eager to build and deploy AI solutions using real-world toolkits.
+<div align="center">
 
-🧠 Course Overview
-This course is structured into seven core segments, each focused on a key set of tools or concepts within the AI/ML ecosystem.
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Course Duration](https://img.shields.io/badge/duration-4%20hours-orange)
+![Status](https://img.shields.io/badge/status-active-success)
 
-📚 Course Outline
-Segment 1: An Introduction to the AI/ML Landscape (Rob Barton)
+*A comprehensive 4-hour live training session developed in partnership with Pearson O'Reilly*
 
-Foundational tools
+</div>
 
-Exploring frameworks
+## 👋 Welcome
 
-Working with GPUs
+Welcome to the official repository for "Mastering AI Tools for Development" — your gateway to mastering the tools, platforms, and frameworks that power modern AI/ML workflows. This course is perfect for IT professionals and developers who want to build and deploy AI solutions using real-world toolkits.
 
-Segment 2: Jupyter (Rob Barton)
+## 🎯 What You'll Learn
 
-Introduction to Jupyter
+This hands-on course is structured into seven core segments, each focusing on essential tools and concepts in the AI/ML ecosystem:
 
-Setup and usage
+### 📚 Course Curriculum
 
-Tips and tricks for AI/ML projects
+#### 1. Introduction to the AI/ML Landscape
+- **Instructor:** Rob Barton
+- **Topics:**
+  - Foundational tools
+  - Exploring frameworks
+  - Working with GPUs
 
-Segment 3: Python for AIML with Scikit Learn (Jerome Henry)
+#### 2. Jupyter Notebooks
+- **Instructor:** Rob Barton
+- **Topics:**
+  - Introduction to Jupyter
+  - Setup and usage
+  - Tips and tricks for AI/ML projects
 
-Python crash course
+#### 3. Python for AIML with Scikit Learn
+- **Instructor:** Jerome Henry
+- **Topics:**
+  - Python crash course
+  - Introduction to Scikit Learn
 
-Introduction to Scikit Learn
+#### 4. Mathematics and Statistics-Oriented Tools
+- **Instructor:** Jerome Henry
+- **Topics:**
+  - R and R Studio
+  - Matlab and Octave
 
-Segment 4: Mathematics and Statistics-Oriented Tools (Jerome Henry)
+#### 5. Deep Learning Tools
+- **Instructor:** Jerome Henry
+- **Topics:**
+  - TensorFlow and PyTorch
+  - Model selection
+  - Embedded systems: MicroPython, TensorFlow Lite, Edge Impulse
 
-R and R Studio
+#### 6. Cloud Development Tools
+- **Instructor:** Rob Barton
+- **Topics:**
+  - Amazon SageMaker and Azure AI
+  - Jupyter Notebook instances
+  - Model training, tuning, and deployment
 
-Matlab and Octave
+#### 7. ChatGPT and Other Large Language Model Tools
+- **Instructor:** Rob Barton
+- **Topics:**
+  - LLM use cases
+  - Auto-Encoding vs. Auto-Regressive LLMs
+  - Open-Source vs. Closed-Source LLMs
+  - Hugging Face Transformers
+  - Model Context Protocol (MCP)
 
-Segment 5: Deep Learning Tools (Jerome Henry)
+## 📁 Repository Structure
 
-TensorFlow and PyTorch
+```
+├── Segment1_AI_ML_Landscape/    # Framework overviews and GPU demo scripts
+├── Segment2_Jupyter/            # Jupyter usage examples and tips
+├── Segment3_Scikit_Learn/       # Python basics and Scikit Learn notebooks
+├── Segment4_Statistics_Tools/   # Scripts and notes for R, MATLAB, Octave
+├── Segment5_Deep_Learning/      # TensorFlow/PyTorch examples and ANN experiments
+├── Segment6_Cloud_Development/  # Cloud model development and deployment
+└── Segment7_LLMs_and_MCP/       # Hugging Face, ChatGPT demos, and MCP workflows
+```
 
-Model selection
+Each segment includes:
+- 📓 Jupyter Notebooks (`.ipynb`) or Python scripts (`.py`)
+- 📊 Data files and sample outputs (where applicable)
+- 📝 Section-specific README files or inline documentation
 
-Embedded systems: MicroPython, TensorFlow Lite, Edge Impulse
+## ⚙️ Prerequisites
 
-Segment 6: Cloud Development Tools (Rob Barton)
+Before you begin, ensure you have:
 
-Amazon SageMaker and Azure AI
-
-Jupyter Notebook instances
-
-Model training, tuning, and deployment
-
-Segment 7: ChatGPT and Other Large Language Model Tools (Rob Barton)
-
-LLM use cases
-
-Auto-Encoding vs. Auto-Regressive LLMs
-
-Open-Source vs. Closed-Source LLMs
-
-Hugging Face Transformers
-
-Model Context Protocol (MCP)
-
-📂 Repository Structure
-This repository is organized into directories that align with the course segments. Each contains code samples, notebooks, or example files.
-
-Course Segments
-Segment1_AI_ML_Landscape/ – Framework overviews and GPU demo scripts
-
-Segment2_Jupyter/ – Jupyter usage examples and tips
-
-Segment3_Scikit_Learn/ – Python basics and Scikit Learn notebooks
-
-Segment4_Statistics_Tools/ – Scripts and notes for R, MATLAB, Octave
-
-Segment5_Deep_Learning/ – TensorFlow/PyTorch examples and ANN experiments
-
-Segment6_SageMaker/ – Cloud model development and deployment
-
-Segment7_LLMs_and_MCP/ – Hugging Face, ChatGPT demos, and MCP workflows
-
-Each segment typically includes:
-
-Jupyter Notebooks (.ipynb) or Python scripts (.py)
-
-Data files and sample outputs (if applicable)
-
-Section-specific README files or inline documentation
-
-✅ Prerequisites
-Python 3.8+
-
-Jupyter Notebook or JupyterLab
-
-Git installed
-
-Familiarity with basic Python programming
+- 🐍 Python 3.8 or higher
+- 📚 Jupyter Notebook or JupyterLab
+- 🔧 Git installed
+- 💻 Basic Python programming knowledge
 
 ## 🚀 Getting Started
 
-1. Clone the repository:
+1. **Clone the repository:**
+   ```bash
    git clone https://github.com/robbarto2/AI-Tools.git
    cd AI-Tools
+   ```
 
-2. Create and activate a virtual environment:
-    python -m venv venv
-    source venv/bin/activate  # or venv\Scripts\activate on Windows
+2. **Create and activate a virtual environment:**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
-3. Install dependencies:
-    pip install -r requirements.txt
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-4. Run Jupyter notebooks or Python files for each section.
+4. **Start learning!** Open and run the Jupyter notebooks or Python files for each section.
 
-Authors: 
-Rob Barton – Distinguished Engineer, AI & Networking
+## 👥 Meet the Instructors
 
-Jerome Henry – Distinguished Engineer, Wireless & AI
+<div align="center">
+
+### Rob Barton
+**Distinguished Engineer, AI & Networking**
+
+### Jerome Henry
+**Distinguished Engineer, Wireless & AI**
+
+</div>
+
+---
+
+<div align="center">
+
+Made with ❤️ by Rob Barton and Jerome Henry
+
+</div>
 
 
 
